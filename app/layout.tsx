@@ -23,8 +23,22 @@ export const metadata: Metadata = {
     'Open Trip anti ribet bersama RUTE SERU. Tinggal bawa badan & bestie! Spesialis trip ramah hijab ke Karimun Jawa, Lampung, Pacitan, Dieng & lebih banyak lagi.',
   openGraph: {
     title: 'RUTE SERU - Open Trip & Private Trip Ramah Hijab',
-    description: 'Open Trip anti ribet, tinggal bawa badan & bestie!',
+    description: 'Open Trip anti ribet, tinggal bawa badan & bestie! Spesialis trip ramah hijab ke Karimun Jawa, Lampung, Pacitan, Dieng & lebih banyak lagi.',
     type: 'website',
+    images: [
+      {
+        url: 'https://images.pexels.com/photos/27808775/pexels-photo-27808775.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630',
+        width: 1200,
+        height: 630,
+        alt: 'Purwakarta One Day Trip - RUTE SERU',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'RUTE SERU - Open Trip & Private Trip Ramah Hijab',
+    description: 'Open Trip anti ribet, tinggal bawa badan & bestie!',
+    images: ['https://images.pexels.com/photos/27808775/pexels-photo-27808775.jpeg?auto=compress&cs=tinysrgb&w=1200&h=630'],
   },
 };
 
